@@ -1,11 +1,13 @@
 import React from 'react'
 import { navItems } from '@/constants'
 import { Button } from './ui/button'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
     <nav className='absolute w-full flex items-center justify-between py-4 px-6 md:px-[6rem] bg-neutral-900 text-white z-10'>
-      <div>
+      <div className='flex items-center gap-2'>
+        <Image src='/logo.png' alt='logo' width={30} height={40} />
         <h1 className='text-2xl font-bold'>Acquireon</h1>
       </div>
 

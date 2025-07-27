@@ -40,7 +40,7 @@ const Hero = () => {
         </h1>
         <p className="md:text-lg text-md text-neutral-500 max-w-2xl">
           We help B2B service providers consistently{" "}
-          <span className="text-indigo-500 underline">book qualified sales calls </span>
+          <span className="text-indigo-500 underline italic">book qualified sales calls </span>
           through targeted LinkedIn client acquisition frameworks.
         </p>
         <div className="flex items-center justify-center gap-6 relative">
