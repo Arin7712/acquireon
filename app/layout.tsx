@@ -21,7 +21,7 @@ export default function RootLayout({
         className={font.className}
       >
         <div className="bg-indigo-500 flex justify-center items-center py-2 text-white text-sm relative">
-          <p>Join 25+ B2B service providers in the acquisition process</p>
+          <p>⭐ We're offering 50% off to our first clients ⭐</p>
         </div>
         <Navbar/>
         {children}
