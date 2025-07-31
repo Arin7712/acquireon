@@ -34,7 +34,7 @@ const Hero = () => {
             <Star className="fill-yellow-300 text-yellow-300 size-4" />
           </div>
         </div>
-        <h1 className="text-4xl md:text-[2.8rem] font-semibold">
+        <h1 className="text-4xl md:text-[2.8rem] font-semibold tracking-tight leading-tighter">
           {/* We Help B2B Services Drive More Leads On <Cover>LinkedIn</Cover> */}
           Targeted LinkedIn Client Aquisiton That Converts <Cover>More Leads</Cover>
         </h1>
