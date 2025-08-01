@@ -21,6 +21,7 @@ export interface AnimatedGridPatternProps
   numSquares?: number;
   maxOpacity?: number;
   duration?: number;
+  isWhite?: boolean;
   repeatDelay?: number;
 }
 
@@ -29,6 +30,7 @@ export function AnimatedGridPattern({
   height = 32,
   x = -1,
   y = -1,
+  isWhite = false,
   strokeDasharray = 0,
   numSquares = 50,
   className,
