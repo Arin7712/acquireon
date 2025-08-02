@@ -12,6 +12,8 @@ import {
 import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { AnimatedGridPattern } from "./magicui/animated-grid-pattern";
+import { cn } from "@/lib/utils";
 
 const fadeInVariant = (delay = 0) => ({
   hidden: { opacity: 0, y: 20 },
@@ -56,8 +58,20 @@ const Steps = () => {
         </p>
       </motion.div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 justify-between w-full mt-[4rem] gap-10 md:gap-12">
-        <div className="step-container">
+      <div className="grid grid-cols-1 md:grid-cols-3 justify-between w-full mt-[4rem] gap-10 md:gap-12 ">
+        <div className="step-container relative">
+          <AnimatedGridPattern
+            numSquares={20}
+            maxOpacity={0.1}
+            duration={3}
+            repeatDelay={1}
+            className={cn(
+              "absolute inset-0 w-full h-full opacity-75",
+              "[mask-image:linear-gradient(to_bottom,white_52%,transparent)]",
+              "mask-size-100 mask-repeat-no-repeat",
+              "pointer-events-none"
+            )}
+          />
           <h1 className="step-heading">
             Step 1: Optimize your LinkedIn profile
           </h1>
@@ -90,27 +104,39 @@ const Steps = () => {
 
         {/* <div className="h-[400px] border-[1px] border-gray-400/20"></div> */}
 
-        <div className="step-container">
-          <h1 className="step-heading">Step 2: Build authority with content</h1>
-                    <Image src="/vector1.png" alt="vector1" width={300} height={300} />
+        <div className="step-container bg-indigo-500 relative">
+          <AnimatedGridPattern
+            numSquares={20}
+            maxOpacity={0.1}
+            duration={3}
+            repeatDelay={1}
+            className={cn(
+              "absolute inset-0 w-full h-full opacity-75",
+              "[mask-image:linear-gradient(to_bottom,white_52%,transparent)]",
+              "mask-size-100 mask-repeat-no-repeat",
+              "pointer-events-none"
+            )}
+          />
+          <h1 className="step-heading text-white">Step 2: Build authority with content</h1>
+          <Image src="/vector1.png" alt="vector1" width={300} height={300} />
 
           <div>
-            <ul className="space-y-2 text-md text-neutral-600 italic">
+            <ul className="space-y-2 text-md text-white italic">
               <li className="flex items-center gap-1">
-                <div className="bg-indigo-500 p-1 rounded-full w-fit">
-                  <Check className="text-white size-3" />
+                <div className="bg-white p-1 rounded-full w-fit">
+                  <Check className="text-indigo-500 size-3" />
                 </div>{" "}
                 Make a weekly content strategy
               </li>
               <li className="flex items-center gap-1">
-                <div className="bg-indigo-500 p-1 rounded-full w-fit">
-                  <Check className="text-white size-3" />
+                <div className="bg-white p-1 rounded-full w-fit">
+                  <Check className="text-indigo-500 size-3" />
                 </div>{" "}
                 Make sure every post is targeted to your ICP
               </li>
               <li className="flex items-center gap-1">
-                <div className="bg-indigo-500 p-1 rounded-full w-fit">
-                  <Check className="text-white size-3" />
+                <div className="bg-white p-1 rounded-full w-fit">
+                  <Check className="text-indigo-500 size-3" />
                 </div>{" "}
                 Drive action through a soft CTA{" "}
               </li>
@@ -120,11 +146,23 @@ const Steps = () => {
 
         {/* <div className="h-[400px] border-[1px] border-gray-400/20"></div> */}
 
-        <div className="step-container border-r-0">
+        <div className="step-container relative">
+                    <AnimatedGridPattern
+            numSquares={20}
+            maxOpacity={0.1}
+            duration={3}
+            repeatDelay={1}
+            className={cn(
+              "absolute inset-0 w-full h-full opacity-75",
+              "[mask-image:linear-gradient(to_bottom,white_52%,transparent)]",
+              "mask-size-100 mask-repeat-no-repeat",
+              "pointer-events-none"
+            )}
+          />
           <h1 className="step-heading">
             Step 3: Run strategic DM campaigns to book calls
           </h1>
-                    <Image src="/vector1.png" alt="vector1" width={300} height={300} />
+          <Image src="/vector1.png" alt="vector1" width={300} height={300} />
 
           <div>
             <ul className="space-y-2 text-md text-neutral-600 italic">

@@ -121,10 +121,10 @@
   }
 
   .step-container {
-    @apply border-b-[1px] md:border-b-0 border-r-0 md:pb-0 pb-10 md:border-r-[1px] min-h-[250px] md:min-h-[400px]  flex flex-col justify-between;
+    @apply pb-10 border-[1px] p-6 rounded-xl min-h-[250px] md:min-h-[400px]  flex flex-col justify-between;
   }
 
   .step-heading {
-    @apply text-xl underline font-medium
+    @apply text-xl underline font-medium italic text-indigo-500
   }
 }
