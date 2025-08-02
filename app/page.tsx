@@ -11,6 +11,7 @@ import  {motion}  from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Demo } from "@/components/Demo";
+import Steps from "@/components/Steps";
 
 const fadeInUpWithDelay = (delay: number) => ({
   hidden: { opacity: 0, y: 40 },
@@ -30,6 +31,7 @@ const page = () => {
     <div>
       <Hero />
       <Benefit />
+      <Steps/>
       <Team />
       {/* <Problem/> */}
       {/* <Offer/> */}

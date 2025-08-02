@@ -94,7 +94,7 @@ const Team = () => {
         >
           <div className="flex items-center justify-center w-full">
             <Image
-              src="/arin.jpg"
+              src="/ayman.jpg"
               alt="mock"
               width={300}
               height={300}
@@ -104,10 +104,10 @@ const Team = () => {
 
           <h1 className="text-xl  font-medium">Ayman Mulla</h1>
           <p className="text-sm leading-tight text-neutral-700 md:w-full max-w-xs">
-            Kartik’s a sales leader with 15+ years of GTM experience.
+            Ayman's a sales leader with 15+ years of GTM experience.
           </p>
           <Link
-            href="https://www.linkedin.com/in/kartik-mandrekar-3950865/"
+            href="https://www.linkedin.com/in/ayman-mulla-a65277371/"
             className={cn(buttonVariants)}
           >
             <Button className="bg-neutral-800 px-6 mt-2 rounded-full text-sm">
@@ -136,10 +136,10 @@ const Team = () => {
           </div>
           <h1 className="text-xl font-medium">Arin Gawande</h1>
           <p className="text-sm leading-tight text-neutral-700 max-w-xs">
-            Kartik’s a sales leader with 15+ years of GTM experience.
+            Arin's a sales leader with 15+ years of GTM experience.
           </p>
           <Link
-            href="https://www.linkedin.com/in/seth-saumya/"
+            href="https://www.linkedin.com/in/arin-gawande-134182316/"
             className={cn(buttonVariants)}
           >
             <Button className="bg-neutral-800 px-6 mt-2 rounded-full text-sm">

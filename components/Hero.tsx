@@ -6,6 +6,13 @@ import { cn } from "@/lib/utils";
 import { CoverDemo } from "./CoverDemo";
 import { Cover } from "./ui/cover";
 import Image from "next/image";
+import { Caveat} from "next/font/google";
+
+const font = Caveat({
+  subsets: ["latin"],
+  weight: ["400"],
+  display: "swap",
+});
 
 const Hero = () => {
   return (
@@ -36,15 +43,15 @@ const Hero = () => {
         </div>
         <h1 className="text-4xl md:text-[2.8rem] font-semibold tracking-tight leading-tighter">
           {/* We Help B2B Services Drive More Leads On <Cover>LinkedIn</Cover> */}
-          Targeted LinkedIn Client Aquisiton That Converts <Cover>More Leads</Cover>
+          Targeted LinkedIn Client Acquisition That Converts <Cover>More Leads</Cover>
         </h1>
-        <p className="md:text-lg text-md text-neutral-500 max-w-2xl">
+        <p className="md:text-lg text-md text-neutral-500 max-w-2xl tracking-tight">
           We help B2B service providers consistently{" "}
           <span className="text-indigo-500 underline italic">book qualified sales calls </span>
           through targeted LinkedIn client acquisition frameworks.
         </p>
         <div className="flex items-center justify-center gap-6 relative">
-          <Button className="bg-indigo-500 px-2 text-md py-6 rounded-full uppercase">
+          <Button className={`bg-indigo-500 px-2 text-md py-6 rounded-full uppercase ${font.className}`}>
             {" "}
             Book a Free Call
             <MoveRight className="bg-white p-2 rounded-full text-indigo-500 size-8" />
