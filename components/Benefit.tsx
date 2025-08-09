@@ -50,11 +50,9 @@ const Benefit = () => {
         viewport={{ once: true, amount: 0.3 }}
         className="flex flex-col gap-3 max-w-2xl items-center justify-between text-center pt-4"
       >
-        <h1 className="text-5xl font-medium tracking-tighter">What you get</h1>
-        <p className="text-md text-neutral-700">
-          Access a complete toolkit — from behavior-based assessments to
-          strategic guidance — designed to help you hire the right sales reps,
-          faster and smarter.
+        <h1 className="md:text-5xl text-4xl font-medium tracking-tighter">What you get</h1>
+        <p className="md:text-md text-sm text-neutral-700">
+          Access a complete package of growth and acquisition frameworks.
         </p>
       </motion.div>
 

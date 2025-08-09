@@ -58,11 +58,10 @@ const page = () => {
           className="space-y-3 flex flex-col items-center justify-center"
         >
           <h1 className="text-4xl tracking-tighter font-semibold md:max-w-xl">
-            Hiring for sales in the next 60 days? Join now.
+            Want to scale your biz organically? Hit now.
           </h1>
           <p className="text-md max-w-md">
-            Join a handpicked group of SaaS and AI startup founders shaping the
-            future of sales hiring.
+            We work with only 2 customers per month to ensure quality of service and results.
           </p>
         </motion.div>
 
@@ -71,10 +70,10 @@ const page = () => {
           className="flex flex-col gap-2 justify-between items-center"
         >
           <Button className="bg-neutral-800 px-6 rounded-full py-6 z-50 hover:cursor-pointer">
-            Apply for early access <ArrowRight className="size-5" />
+            Book a Free Call <ArrowRight className="size-5" />
           </Button>
           <p className="text-xs max-w-lg font-medium z-50">
-            Onboarding starts in July. Apply now for free early access and a
+            Onboarding starts in August. Apply now for free early access and a
             1-hour strategy session with our founding team.
           </p>
         </motion.div>

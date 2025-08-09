@@ -67,7 +67,7 @@ const Team = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
-            className="text-5xl font-medium tracking-tighter"
+            className="md:text-5xl text-4xl font-medium tracking-tighter"
           >
             Meet the team
           </motion.h1>
@@ -76,9 +76,9 @@ const Team = () => {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.3 }}
-            className="text-md text-neutral-700"
+            className="md:text-md text-sm text-neutral-700"
           >
-            Together, they’re helping founders confidently hire sales talent.
+            Together, they’re helping 6 figure founders scale their business organically.
           </motion.p>
         </motion.div>
       </motion.div>
@@ -104,7 +104,7 @@ const Team = () => {
 
           <h1 className="text-xl  font-medium">Ayman Mulla</h1>
           <p className="text-sm leading-tight text-neutral-700 md:w-full max-w-xs">
-            Ayman's a sales leader with 15+ years of GTM experience.
+            Ayman's an explorer with a keen eye for trading and business.
           </p>
           <Link
             href="https://www.linkedin.com/in/ayman-mulla-a65277371/"
@@ -136,7 +136,7 @@ const Team = () => {
           </div>
           <h1 className="text-xl font-medium">Arin Gawande</h1>
           <p className="text-sm leading-tight text-neutral-700 max-w-xs">
-            Arin's a sales leader with 15+ years of GTM experience.
+            Arin's a founder with a passion for building and scaling businesses.
           </p>
           <Link
             href="https://www.linkedin.com/in/arin-gawande-134182316/"

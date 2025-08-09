@@ -52,8 +52,8 @@ const Steps = () => {
         viewport={{ once: true, amount: 0.3 }}
         className="flex flex-col gap-3 max-w-2xl justify-between pt-4"
       >
-        <h1 className="text-5xl font-medium tracking-tighter">What we do</h1>
-        <p className="text-md text-neutral-700">
+        <h1 className="md:text-5xl text-4xl font-medium tracking-tighter">How we do</h1>
+        <p className="md:text-md text-sm text-neutral-700">
           See how we cook up a LinkedIn acquisition strategy that works for you.
         </p>
       </motion.div>
